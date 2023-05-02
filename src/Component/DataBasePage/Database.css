@@ -1,0 +1,117 @@
+.DataBaseFile {
+  padding: 30px 0;
+  background-position: center;
+  background-image: url(../../Assets/dataBase-1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 50px;
+  min-height: calc(100vh - 70px);
+
+
+}
+
+form.enterDtatForm input{
+margin-bottom: 10px;
+}
+
+/* img.backGroundImag{
+  position: absolute;
+  top: 80.931px;
+  left:0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: calc(100vh - 80.931px);
+
+
+
+} */
+.hedd {
+  color: antiquewhite;
+}
+
+.DataBaseFile label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.DataBaseFile form {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, .7);
+  max-width: 75%;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.tableOfBooke .databseHead {
+  background-color: aqua;
+  border-radius: 10px;
+  width: fit-content;
+  margin: auto;
+}
+
+.customeFont label {
+  font-size: 1.2rem;
+
+}
+
+@media (max-width:990px) {
+  .DataBaseFile {
+    min-height: calc(100vh - 57.188px);
+
+  }
+}
+
+@media (max-width:600px) {
+  form.enterDtatForm {
+    max-width: 90% !important;
+    margin: auto !important;
+    padding: 5px !important;
+    border-radius: 5px;
+    display: block !important;
+  }
+
+  form.enterDtatForm>div {
+    margin: 0 !important;
+  }
+
+  form.enterDtatForm label {
+    font-size: 1rem !important;
+  }
+
+  form.enterDtatForm button {
+    margin-top: 10px;
+  }
+
+
+  form.hedderOfTable,
+  form.lastTowInput {
+    max-width: 90% !important;
+    margin: auto !important;
+    padding: 5px !important;
+    border-radius: 5px;
+    margin-bottom: 10px !important;
+  }
+
+  form.hedderOfTable>div, 
+  form.lastTowInput>div {
+    margin: 0 !important;
+  }
+
+  form.hedderOfTable label,
+  form.lastTowInput label{
+    font-size: 1rem !important;
+  }
+  form.lastTowInput button{
+    font-size: .8rem !important;
+    padding: 5px !important;
+    font-weight: 400 !important;
+    margin: .5px !important;
+  }
+form.hedderOfTable label.tititREMOVbA{
+padding: 0 !important;
+}
+
+}

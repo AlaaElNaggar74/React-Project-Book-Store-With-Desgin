@@ -1,0 +1,25 @@
+.navbar .navbar-brand,
+.navbar-nav li.nav-item {
+font-size: 1.3rem;
+font-weight: bold;
+color: aliceblue;
+}
+.navbar-nav li.nav-item a,
+.navbar-nav li.nav-item a.active{
+
+color: aliceblue;
+}
+.navbar-nav li.nav-item:not(:last-child) {
+margin-right: 30px;
+}
+nav.navbar{
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  z-index: 1000;
+
+}

@@ -1,0 +1,47 @@
+.LoginPag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  min-height: calc(100vh - 70px);
+  /* background-color: aqua; */
+  position: relative;
+
+
+}
+
+
+.LoginPag::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../Assets/login-1.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.LoginPag label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.conLogin {
+  border: 4px solid rgb(56, 56, 56);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, .8);
+  padding: 30px 20px 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+@media (max-width:990px) {
+  .LoginPag {
+    min-height: calc(100vh - 57.188px);
+
+  }
+}
